@@ -1,0 +1,45 @@
+
+body{
+    height: 97vh;
+    margin: 0;
+}
+
+.wrapper{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 70px auto;
+
+}
+
+h1{
+    text-align: center;
+}
+
+section:nth-child(1){
+    background-color: red;
+}
+
+section:nth-child(2){
+    background-color: blue;
+}
+
+section:nth-child(3){
+    background-color: green;
+}
+
+section:nth-child(4){
+    background-color: yellow;
+}
+
+@media screen and (max-width: 800px){
+    h1{
+        font-size: 25px;
+    }
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr
+}
