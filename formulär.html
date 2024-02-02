@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulär.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <label for="fname">Förnamn:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Efternamn:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <p>Välj vilken som är din favvosten</p>
+        <input type="radio" name="favorit sten" id="torr" value="torr">
+        <label for="fav_sten">Torr vanlig grå sten</label><br>
+        <input type="radio" name="favorit sten" id="blöt" value="blöt">
+        <label for="fav_sten">Blöt vanlig grå sten</label><br>
+        <input type="radio" name="favorit sten" id="vit" value="vit">
+        <label for="fav_sten">Sån vit/genomskinlig sten som man tyckte va skit cool och samlade på när man var liten</label><br>
+
+        <p>Vilka/vilket kön dras du till?</p>
+        <input type="checkbox" id="kön1" name="kön1" value="Manliga könet">
+        <label for="kön1"> Manliga könet</label><br>
+        <input type="checkbox" id="kön2" name="kön1" value="Kvinnliga könet">
+        <label for="kön2"> Kvinnliga könet</label><br>
+        <input type="checkbox" id="kön3" name="kön3" value="Annat">
+        <label for="kön3"> Annat</label><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
